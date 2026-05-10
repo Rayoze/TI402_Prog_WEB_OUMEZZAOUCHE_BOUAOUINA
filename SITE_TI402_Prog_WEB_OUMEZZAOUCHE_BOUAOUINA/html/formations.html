@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez nos formations en informatique : Bachelors et Cycle Ingénieur.">
+    <title>Formations - EFREI Département Informatique</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- EN-TETE -->
+    <header class="entete-site">
+        <div class="conteneur-entete">
+            <a href="index.html" class="logo-entete">
+                <img src="../img/efrei.png" alt="EFREI Paris">
+                <span class="texte-logo-entete">Département Informatique</span>
+            </a>
+
+            <nav class="navigation-entete">
+                <a href="index.html">Accueil</a>
+                <a href="formations.html">Formations</a>
+                <a href="equipe.html">Équipe et Recherche</a>
+                <a href="vie-etudiante.html">Vie Étudiante</a>
+                <a href="partenariats.html">Partenariats</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <button class="bouton-menu-petit-ecran" id="bouton-menu-petit-ecran" aria-label="Menu">
+                <i class="icone icone-menu"></i>
+            </button>
+        </div>
+
+        <nav class="menu-petit-ecran" id="menu-petit-ecran">
+            <a href="index.html">Accueil</a>
+            <a href="formations.html">Formations</a>
+            <a href="equipe.html">Équipe et Recherche</a>
+            <a href="vie-etudiante.html">Vie Étudiante</a>
+            <a href="partenariats.html">Partenariats</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- BANDEAU DE PAGE -->
+    <section class="bandeau-page">
+        <div class="conteneur">
+            <div class="contenu-bandeau-page">
+                <h1 class="titre-page">Cours et Formations</h1>
+                <p class="description-page">
+                    Des programmes d'excellence pour former les ingénieurs et experts du numérique de demain. Du Bachelor au diplôme d'ingénieur, découvrez nos parcours en informatique, data science et intelligence artificielle.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="section-page" style="background: white;">
+        <div class="conteneur">
+            <div style="max-width: 56rem; margin: 0 auto;">
+                <h2 style="font-size: 2rem; font-family: var(--police-titre); font-weight: 700; margin-bottom: 1.5rem;">
+                    Un parcours d'excellence adapté à vos ambitions
+                </h2>
+                <div style="color: var(--gris-600); margin-bottom: 1rem; line-height: 1.7;">
+                    <p style="margin-bottom: 1rem;">
+                        Le département informatique de l'EFREI propose des formations reconnues qui allient théorie académique et pratique professionnelle. Nos programmes sont conçus en partenariat avec les entreprises leaders du secteur pour vous garantir une employabilité maximale.
+                    </p>
+                    <p>
+                        Que vous souhaitiez intégrer un Bachelor post-bac ou rejoindre notre cycle ingénieur, vous bénéficierez d'un enseignement de qualité, de projets concrets et d'un réseau professionnel solide.
+                    </p>
+                </div>
+
+                <div class="grille grille-1 grille-3" style="margin-top: 3rem;">
+                    <div style="background: linear-gradient(to bottom right, var(--bleu-50), white); border: 1px solid var(--bleu-100); border-radius: var(--arrondi-xl); padding: 1.5rem;">
+                        <div style="font-size: 2rem; font-family: var(--police-titre); font-weight: 700; color: var(--bleu-600); margin-bottom: 0.5rem;">100%</div>
+                        <div style="color: var(--gris-700); font-weight: 500;">Taux d'employabilité à 6 mois</div>
+                    </div>
+                    <div style="background: linear-gradient(to bottom right, var(--violet-100), white); border: 1px solid var(--violet-300); border-radius: var(--arrondi-xl); padding: 1.5rem;">
+                        <div style="font-size: 2rem; font-family: var(--police-titre); font-weight: 700; color: var(--violet-600); margin-bottom: 0.5rem;">45k€</div>
+                        <div style="color: var(--gris-700); font-weight: 500;">Salaire moyen à la sortie</div>
+                    </div>
+                    <div style="background: linear-gradient(to bottom right, var(--cyan-100), white); border: 1px solid var(--cyan-500); border-radius: var(--arrondi-xl); padding: 1.5rem;">
+                        <div style="font-size: 2rem; font-family: var(--police-titre); font-weight: 700; color: var(--vert-500); margin-bottom: 0.5rem;">300+</div>
+                        <div style="color: var(--gris-700); font-weight: 500;">Entreprises partenaires</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BACHELORS -->
+    <section class="section-page fond-degrade-clair">
+        <div class="conteneur">
+            <div class="texte-centre marge-bas-12">
+                <h2 style="font-size: 2.5rem; font-family: var(--police-titre); font-weight: 700; margin-bottom: 1rem;">
+                    Programmes Bachelor
+                </h2>
+                <p style="font-size: 1.125rem; color: var(--gris-600); max-width: 42rem; margin: 0 auto;">
+                    Formations post-bac en 3 ans pour acquérir les fondamentaux et se spécialiser dans un domaine technologique.
+                </p>
+            </div>
+
+            <div class="grille grille-1 grille-2">
+                <!-- Bachelor 1: Développement Web et Mobile -->
+                <div class="carte">
+                    <div style="height: 0.5rem; background: linear-gradient(to right, var(--bleu-500), var(--cyan-500)); border-radius: var(--arrondi-2xl) var(--arrondi-2xl) 0 0; margin: -2rem -2rem 1.5rem;"></div>
+                    <div style="display: flex; align-items: start; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div class="icone-carte degrade-bleu">
+                            <i class="icone icone-code"></i>
+                        </div>
+                        <div style="flex: 1;">
+                            <h3 class="titre-carte">Développement Web et Mobile</h3>
+                            <div style="display: flex; gap: 0.75rem; font-size: 0.875rem; color: var(--gris-600); margin-top: 0.5rem;">
+                                <span class="pastille pastille-bleue">3 ans</span>
+                                <span class="pastille pastille-bleue">Post-Bac</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="description-carte" style="margin-bottom: 1.5rem;">
+                        Maîtrisez les technologies front-end et back-end pour créer des applications web et mobiles performantes.
+                    </p>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="font-weight: 600; color: var(--gris-900); margin-bottom: 0.75rem;">Compétences clés :</h4>
+                        <div class="grille grille-2" style="gap: 0.5rem;">
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>React et Vue.js</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Node.js et Express</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>MongoDB et PostgreSQL</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Flutter et React Native</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="bouton bouton-degrade" style="width: 100%;">
+                        En savoir plus
+                        <i class="icone icone-fleche-droite"></i>
+                    </button>
+                </div>
+
+                <!-- Bachelor 2: Cybersécurité -->
+                <div class="carte">
+                    <div style="height: 0.5rem; background: linear-gradient(to right, var(--rouge-500), var(--orange-500)); border-radius: var(--arrondi-2xl) var(--arrondi-2xl) 0 0; margin: -2rem -2rem 1.5rem;"></div>
+                    <div style="display: flex; align-items: start; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div class="icone-carte" style="background: linear-gradient(to bottom right, var(--rouge-500), var(--orange-500)); color: white;">
+                            <i class="icone icone-bouclier"></i>
+                        </div>
+                        <div style="flex: 1;">
+                            <h3 class="titre-carte">Cybersécurité</h3>
+                            <div style="display: flex; gap: 0.75rem; font-size: 0.875rem; color: var(--gris-600); margin-top: 0.5rem;">
+                                <span class="pastille pastille-bleue">3 ans</span>
+                                <span class="pastille pastille-bleue">Post-Bac</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="description-carte" style="margin-bottom: 1.5rem;">
+                        Devenez expert en sécurité informatique et protégez les systèmes d'information contre les cybermenaces.
+                    </p>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="font-weight: 600; color: var(--gris-900); margin-bottom: 0.75rem;">Compétences clés :</h4>
+                        <div class="grille grille-2" style="gap: 0.5rem;">
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Pentest et Ethical Hacking</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Cryptographie</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Sécurité réseau</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Forensics</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="bouton bouton-degrade" style="width: 100%;">
+                        En savoir plus
+                        <i class="icone icone-fleche-droite"></i>
+                    </button>
+                </div>
+
+                <!-- Bachelor 3: IA -->
+                <div class="carte">
+                    <div style="height: 0.5rem; background: linear-gradient(to right, var(--violet-500), var(--rose-500)); border-radius: var(--arrondi-2xl) var(--arrondi-2xl) 0 0; margin: -2rem -2rem 1.5rem;"></div>
+                    <div style="display: flex; align-items: start; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div class="icone-carte degrade-violet">
+                            <i class="icone icone-cerveau"></i>
+                        </div>
+                        <div style="flex: 1;">
+                            <h3 class="titre-carte">Intelligence Artificielle</h3>
+                            <div style="display: flex; gap: 0.75rem; font-size: 0.875rem; color: var(--gris-600); margin-top: 0.5rem;">
+                                <span class="pastille pastille-bleue">3 ans</span>
+                                <span class="pastille pastille-bleue">Post-Bac</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="description-carte" style="margin-bottom: 1.5rem;">
+                        Plongez dans le machine learning et le deep learning pour créer des systèmes intelligents.
+                    </p>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="font-weight: 600; color: var(--gris-900); margin-bottom: 0.75rem;">Compétences clés :</h4>
+                        <div class="grille grille-2" style="gap: 0.5rem;">
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Python et TensorFlow</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Computer Vision</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>NLP</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Deep Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="bouton bouton-degrade" style="width: 100%;">
+                        En savoir plus
+                        <i class="icone icone-fleche-droite"></i>
+                    </button>
+                </div>
+
+                <!-- Bachelor 4: Data Science -->
+                <div class="carte">
+                    <div style="height: 0.5rem; background: linear-gradient(to right, var(--vert-500), var(--turquoise-500)); border-radius: var(--arrondi-2xl) var(--arrondi-2xl) 0 0; margin: -2rem -2rem 1.5rem;"></div>
+                    <div style="display: flex; align-items: start; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div class="icone-carte degrade-vert">
+                            <i class="icone icone-base-donnees"></i>
+                        </div>
+                        <div style="flex: 1;">
+                            <h3 class="titre-carte">Data Science et Big Data</h3>
+                            <div style="display: flex; gap: 0.75rem; font-size: 0.875rem; color: var(--gris-600); margin-top: 0.5rem;">
+                                <span class="pastille pastille-bleue">3 ans</span>
+                                <span class="pastille pastille-bleue">Post-Bac</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="description-carte" style="margin-bottom: 1.5rem;">
+                        Analysez et valorisez les données massives pour aider à la prise de décision stratégique.
+                    </p>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="font-weight: 600; color: var(--gris-900); margin-bottom: 0.75rem;">Compétences clés :</h4>
+                        <div class="grille grille-2" style="gap: 0.5rem;">
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Python et R</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Hadoop et Spark</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Data Visualization</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <i class="icone icone-validation" style="color: var(--vert-500);"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="bouton bouton-degrade" style="width: 100%;">
+                        En savoir plus
+                        <i class="icone icone-fleche-droite"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CYCLE INGÉNIEUR -->
+    <section class="section-page" style="background: white;">
+        <div class="conteneur">
+            <div class="texte-centre marge-bas-12">
+                <h2 style="font-size: 2.5rem; font-family: var(--police-titre); font-weight: 700; margin-bottom: 1rem;">
+                    Cycle Ingénieur
+                </h2>
+                <p style="font-size: 1.125rem; color: var(--gris-600); max-width: 42rem; margin: 0 auto;">
+                    Diplôme d'ingénieur reconnu par la CTI avec des spécialisations pointues et des projets de fin d'études ambitieux.
+                </p>
+            </div>
+
+            <div class="grille grille-1 grille-3 marge-bas-12">
+                <div style="background: linear-gradient(to bottom right, var(--gris-50), white); border: 1px solid var(--gris-200); border-radius: var(--arrondi-2xl); padding: 2rem;">
+                    <div class="icone-carte" style="background: linear-gradient(to bottom right, var(--indigo-500), var(--bleu-600)); color: white; margin-bottom: 1.5rem;">
+                        <i class="icone icone-puce"></i>
+                    </div>
+                    <h3 style="font-size: 1.5rem; font-family: var(--police-titre); font-weight: 700; margin-bottom: 1rem;">Ingénierie IT</h3>
+                    <p class="description-carte" style="margin-bottom: 1.5rem;">Formation complète en architecture logicielle, DevOps et cloud computing.</p>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="font-weight: 600; font-size: 0.875rem; margin-bottom: 0.75rem;">Spécialisations :</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>Architecture Cloud</span>
+                            </li>
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>DevOps et CI/CD</span>
+                            </li>
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>Microservices</span>
+                            </li>
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>Kubernetes et Docker</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="padding-top: 1.5rem; border-top: 1px solid var(--gris-200);">
+                        <div style="font-size: 0.875rem; font-weight: 500; margin-bottom: 0.25rem;">Projets :</div>
+                        <div style="font-size: 0.875rem; color: var(--gris-600);">Projets de fin d'études avec entreprises partenaires</div>
+                    </div>
+                </div>
+
+                <div style="background: linear-gradient(to bottom right, var(--gris-50), white); border: 1px solid var(--gris-200); border-radius: var(--arrondi-2xl); padding: 2rem;">
+                    <div class="icone-carte" style="background: linear-gradient(to bottom right, var(--bleu-600), var(--orange-500)); color: white; margin-bottom: 1.5rem;">
+                        <i class="icone icone-base-donnees"></i>
+                    </div>
+                    <h3 style="font-size: 1.5rem; font-family: var(--police-titre); font-weight: 700; margin-bottom: 1rem;">Data Science et IA</h3>
+                    <p class="description-carte" style="margin-bottom: 1.5rem;">Programme avancé combinant mathématiques, statistiques et intelligence artificielle.</p>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="font-weight: 600; font-size: 0.875rem; margin-bottom: 0.75rem;">Spécialisations :</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>Deep Learning avancé</span>
+                            </li>
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>Big Data Analytics</span>
+                            </li>
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>MLOps</span>
+                            </li>
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>AI Ethics</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="padding-top: 1.5rem; border-top: 1px solid var(--gris-200);">
+                        <div style="font-size: 0.875rem; font-weight: 500; margin-bottom: 0.25rem;">Projets :</div>
+                        <div style="font-size: 0.875rem; color: var(--gris-600);">Recherche appliquée et publications scientifiques</div>
+                    </div>
+                </div>
+
+                <div style="background: linear-gradient(to bottom right, var(--gris-50), white); border: 1px solid var(--gris-200); border-radius: var(--arrondi-2xl); padding: 2rem;">
+                    <div class="icone-carte" style="background: linear-gradient(to bottom right, var(--cyan-500), var(--bleu-600)); color: white; margin-bottom: 1.5rem;">
+                        <i class="icone icone-nuage"></i>
+                    </div>
+                    <h3 style="font-size: 1.5rem; font-family: var(--police-titre); font-weight: 700; margin-bottom: 1rem;">Cloud et Infrastructure</h3>
+                    <p class="description-carte" style="margin-bottom: 1.5rem;">Expertise en architecture cloud, sécurité et gestion d'infrastructures distribuées.</p>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="font-weight: 600; font-size: 0.875rem; margin-bottom: 0.75rem;">Spécialisations :</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>AWS, Azure, GCP</span>
+                            </li>
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>Infrastructure as Code</span>
+                            </li>
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>Security et Compliance</span>
+                            </li>
+                            <li style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--gris-700);">
+                                <span style="width: 0.375rem; height: 0.375rem; background: var(--bleu-500); border-radius: 50%; margin-top: 0.5rem;"></span>
+                                <span>Monitoring et Observability</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="padding-top: 1.5rem; border-top: 1px solid var(--gris-200);">
+                        <div style="font-size: 0.875rem; font-weight: 500; margin-bottom: 0.25rem;">Projets :</div>
+                        <div style="font-size: 0.875rem; color: var(--gris-600);">Certifications professionnelles (AWS, Azure)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(to bottom right, var(--bleu-600), var(--indigo-600), var(--violet-600)); border-radius: var(--arrondi-2xl); padding: 2.5rem; color: white; text-align: center;">
+                <h3 style="font-size: 2rem; font-family: var(--police-titre); font-weight: 700; margin-bottom: 1rem;">
+                    Modalités d'admission
+                </h3>
+                <p style="font-size: 1.125rem; opacity: 0.9; margin-bottom: 2rem; max-width: 42rem; margin-left: auto; margin-right: auto;">
+                    Les admissions se font sur dossier via Parcoursup pour les Bachelors, et par concours ou sur dossier pour le cycle ingénieur.
+                </p>
+                <button class="bouton" style="background: white; color: var(--bleu-600);">
+                    <a href="https://www.youtube.com/watch?v=E4WlUXrJgy4&t=1s">Consulter les modalités</a>
+                    <i class="icone icone-fleche-droite"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-page fond-degrade-clair">
+        <div class="conteneur">
+            <div class="texte-centre marge-bas-12">
+                <div class="pastille pastille-bleue" style="margin-bottom: 1rem;">
+                    <i class="icone icone-professeur"></i> Approche pédagogique
+                </div>
+                <h2 style="font-size: 2.5rem; font-family: var(--police-titre); font-weight: 700; margin-bottom: 1rem;">Comment se construisent les apprentissages ?</h2>
+                <p style="font-size: 1.125rem; color: var(--gris-600); max-width: 46rem; margin: 0 auto;">Au-delà des intitulés de formation, l'EFREI mise sur une pédagogie progressive, professionnalisante et connectée aux réalités du secteur.</p>
+            </div>
+
+            <div class="grille grille-1 grille-4">
+                <div class="carte">
+                    <div class="icone-carte degrade-bleu">
+                        <i class="icone icone-schema-projet"></i>
+                    </div>
+                    <h3 class="titre-carte">Projets fil rouge</h3>
+                    <p class="description-carte">Chaque semestre s'appuie sur des cas pratiques et des réalisations à plusieurs pour mobiliser les compétences acquises.</p>
+                </div>
+                <div class="carte">
+                    <div class="icone-carte degrade-violet">
+                        <i class="icone icone-mallette"></i>
+                    </div>
+                    <h3 class="titre-carte">Intervenants métier</h3>
+                    <p class="description-carte">Des professionnels viennent partager leurs retours d'expérience et confronter les étudiants aux usages réels.</p>
+                </div>
+                <div class="carte">
+                    <div class="icone-carte degrade-vert">
+                        <i class="icone icone-certificat"></i>
+                    </div>
+                    <h3 class="titre-carte">Compétences certifiantes</h3>
+                    <p class="description-carte">Les parcours permettent de préparer des certifications et de produire un portfolio valorisable en stage ou alternance.</p>
+                </div>
+                <div class="carte">
+                    <div class="icone-carte degrade-orange">
+                        <i class="icone icone-globe"></i>
+                    </div>
+                    <h3 class="titre-carte">Ouverture internationale</h3>
+                    <p class="description-carte">Projets multiculturels, mobilité et veille technologique élargissent les perspectives académiques et professionnelles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIED DE PAGE -->
+    <footer class="pied-page">
+        <div class="conteneur">
+            <div class="contenu-pied-page">
+                <div class="marque-pied-page">
+                    <div class="logo-pied-page">
+                        <img src="../img/efrei.png" alt="EFREI Paris">
+                        <div style="font-size: 0.875rem; color: rgba(255,255,255,0.7); margin-top: 0.5rem;">Département Informatique</div>
+                    </div>
+                    <p class="description-pied-page">
+                        Former les ingénieurs et experts du numérique de demain à travers des programmes d'excellence en informatique, data science et intelligence artificielle.
+                    </p>
+                    <div class="reseaux-pied-page">
+                        <a href="https://www.facebook.com/EfreiParis/?locale=fr_FR" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="icone icone-reseau-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/school/efrei/posts/?feedView=all" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="icone icone-reseau-linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/efrei" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <i class="icone icone-reseau-youtube"></i>
+                        </a>
+                        <a href="https://www.instagram.com/efrei_paris/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="icone icone-reseau-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="titre-pied-page">Navigation</h3>
+                    <div class="liens-pied-page">
+                        <a href="index.html">Accueil</a>
+                        <a href="formations.html">Formations</a>
+                        <a href="equipe.html">Équipe et Recherche</a>
+                        <a href="vie-etudiante.html">Vie Étudiante</a>
+                        <a href="partenariats.html">Partenariats</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="contact.html#a-propos">À propos</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="titre-pied-page">Contact</h3>
+                    <div class="contact-pied-page">
+                        <div class="element-contact-pied-page">
+                            <i class="icone icone-position"></i>
+                            <span>30-32 Avenue de la République, 94800 Villejuif</span>
+                        </div>
+                        <div class="element-contact-pied-page">
+                            <i class="icone icone-telephone"></i>
+                            <span>01 46 77 47 47</span>
+                            <span>01 46 77 47 47</span>
+                        </div>
+                        <div class="element-contact-pied-page">
+                            <i class="icone icone-enveloppe"></i>
+                            <span>info@efrei.fr</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bas-pied-page">
+                <p>&copy; 2026 EFREI Paris - Département Informatique. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
