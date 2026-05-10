@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "tag": "bonjour",
+      "patterns": ["bonjour", "salut", "bonsoir", "coucou"],
+      "responses": [
+        "Bonjour ! Je peux vous aider sur les formations, les admissions, la vie étudiante, les partenariats ou le contact.",
+        "Bonjour ! Posez-moi une question simple sur le département informatique."
+      ]
+    },
+    {
+      "tag": "formations",
+      "patterns": ["formation", "formations", "bachelor", "cycle ingénieur", "ingenieur", "programme"],
+      "responses": [
+        "Le département propose des parcours en développement, cybersécurité, intelligence artificielle, data science et cloud.",
+        "Vous pouvez retrouver le détail des parcours sur la page Formations, avec les Bachelors et le Cycle Ingénieur."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["admission", "admissions", "candidater", "parcoursup", "concours", "inscription"],
+      "responses": [
+        "Pour les Bachelors, l'admission passe principalement par Parcoursup. Pour le cycle ingénieur, il existe plusieurs voies selon votre profil.",
+        "La page Contact présente aussi un bloc FAQ sur les admissions et la procédure pour candidater."
+      ]
+    },
+    {
+      "tag": "vie_etudiante",
+      "patterns": ["campus", "vie étudiante", "vie etudiante", "association", "club", "événement", "evenement"],
+      "responses": [
+        "La vie étudiante s'appuie sur des clubs, des associations, des projets, des événements et un campus dynamique à Villejuif.",
+        "Vous pouvez consulter la page Vie Étudiante pour découvrir les associations, les témoignages et les temps forts du campus."
+      ]
+    },
+    {
+      "tag": "partenariats",
+      "patterns": ["partenaire", "partenaires", "entreprise", "alternance", "stage", "carrière", "carrieres"],
+      "responses": [
+        "Le département s'appuie sur un réseau d'entreprises partenaires pour les stages, l'alternance et l'insertion professionnelle.",
+        "La page Partenariats présente plusieurs entreprises partenaires et des liens utiles pour l'emploi et les carrières."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "email", "mail", "adresse", "téléphone", "telephone", "villejuif"],
+      "responses": [
+        "Vous pouvez contacter l'EFREI au 01 46 77 47 47 ou par courriel à l'adresse info@efrei.fr.",
+        "Le campus est situé au 30-32 Avenue de la République, 94800 Villejuif."
+      ]
+    },
+    {
+      "tag": "merci",
+      "patterns": ["merci", "super", "parfait"],
+      "responses": [
+        "Avec plaisir !",
+        "Je vous en prie."
+      ]
+    }
+  ]
+}
